@@ -7615,3 +7615,1196 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.05.20-20.02.39:155][385]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
 [2024.05.20-20.02.39:155][385]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.05.20-20.15.42:940][111]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2024.05.20-20.47.07:539][367]LogTemp: Repeating last play command: Selected Viewport
+[2024.05.20-20.47.07:547][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.20-20.47.07:548][367]PIE: New page: PIE session: main_level (21 maj 2024, 00:47:07)
+[2024.05.20-20.47.07:579][367]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main_level
+[2024.05.20-20.47.07:585][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005072s)
+[2024.05.20-20.47.07:586][367]LogAIModule: Creating AISystem for world main_level
+[2024.05.20-20.47.07:587][367]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2024.05.20-20.47.07:587][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main_level.main_level to /Game/UEDPIE_0_main_level.main_level (0.007354s)
+[2024.05.20-20.47.07:627][367]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2024.05.20-20.47.07:639][367]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.20-20.47.07:639][367]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.05.20-20.47.07:639][367]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.20-20.47.07:640][367]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.20-20.47.07:640][367]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.20-20.47.07:640][367]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.20-20.47.07:640][367]LogAudioMixer: Display: Initializing audio mixer.
+[2024.05.20-20.47.07:645][367]LogAudioMixer: Display: 0: FrontLeft
+[2024.05.20-20.47.07:645][367]LogAudioMixer: Display: 1: FrontRight
+[2024.05.20-20.47.07:660][367]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.05.20-20.47.07:662][367]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.20-20.47.07:662][367]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.20-20.47.07:662][367]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.20-20.47.07:663][367]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.05.20-20.47.07:663][367]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.05.20-20.47.07:663][367]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.05.20-20.47.07:664][367]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.05.20-20.47.07:664][367]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.05.20-20.47.07:664][367]LogInit: FAudioDevice initialized.
+[2024.05.20-20.47.07:664][367]LogAudio: Display: Audio Device (ID: 65) registered with world 'main_level'.
+[2024.05.20-20.47.07:679][367]LogLoad: Game class is 'mine_C'
+[2024.05.20-20.47.07:680][367]LogWorld: Bringing World /Game/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2024.05.20-22.47.07
+[2024.05.20-20.47.07:680][367]LogWorld: Bringing up level for play took: 0.000812
+[2024.05.20-20.47.07:680][367]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2024.05.20-20.47.07:685][367]PIE: Server logged in
+[2024.05.20-20.47.07:686][367]PIE: Play in editor total start time 0,14 seconds.
+[2024.05.20-20.47.33:560][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.20-20.47.33:560][466]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main_level
+[2024.05.20-20.47.33:561][466]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-20.47.33:561][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-20.47.33:568][466]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.20-20.47.33:595][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-20.47.33:626][466]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.20-20.47.33:626][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-20.47.33:628][466]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-20.47.33:632][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.20-20.47.33:637][466]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2024.05.20-20.47.33:698][467]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2024.05.20-20.49.15:100][ 95]LogEditorTransaction: Undo Set Rotation
+[2024.05.20-20.49.15:232][ 95]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.20-20.49.39:243][910]BlueprintLog: New page: Compile charcater1
+[2024.05.20-20.49.39:422][910]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2024.05.20-20.49.39:979][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset" SILENT=true
+[2024.05.20-20.49.40:005][959]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater1726633CD47B52F15310946B0778F8669.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset'
+[2024.05.20-20.49.40:026][959]AssetCheck: New page: Asset Save: charcater1
+[2024.05.20-20.49.40:027][959]LogContentValidation: Display: Validating Blueprint /Game/charcater1.charcater1
+[2024.05.20-20.49.41:798][152]LogTemp: Repeating last play command: Selected Viewport
+[2024.05.20-20.49.41:803][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.20-20.49.41:804][152]PIE: New page: PIE session: main_level (21 maj 2024, 00:49:41)
+[2024.05.20-20.49.41:839][152]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main_level
+[2024.05.20-20.49.41:842][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002546s)
+[2024.05.20-20.49.41:843][152]LogAIModule: Creating AISystem for world main_level
+[2024.05.20-20.49.41:843][152]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2024.05.20-20.49.41:843][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main_level.main_level to /Game/UEDPIE_0_main_level.main_level (0.003825s)
+[2024.05.20-20.49.41:881][152]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2024.05.20-20.49.41:884][152]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.20-20.49.41:884][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.05.20-20.49.41:884][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.20-20.49.41:885][152]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.20-20.49.41:885][152]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.20-20.49.41:885][152]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.20-20.49.41:885][152]LogAudioMixer: Display: Initializing audio mixer.
+[2024.05.20-20.49.41:889][152]LogAudioMixer: Display: 0: FrontLeft
+[2024.05.20-20.49.41:889][152]LogAudioMixer: Display: 1: FrontRight
+[2024.05.20-20.49.41:904][152]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.05.20-20.49.41:904][152]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.20-20.49.41:904][152]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.20-20.49.41:904][152]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.20-20.49.41:905][152]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.05.20-20.49.41:905][152]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.05.20-20.49.41:905][152]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.05.20-20.49.41:906][152]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.05.20-20.49.41:906][152]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.05.20-20.49.41:906][152]LogInit: FAudioDevice initialized.
+[2024.05.20-20.49.41:906][152]LogAudio: Display: Audio Device (ID: 66) registered with world 'main_level'.
+[2024.05.20-20.49.41:914][152]LogLoad: Game class is 'mine_C'
+[2024.05.20-20.49.41:915][152]LogWorld: Bringing World /Game/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2024.05.20-22.49.41
+[2024.05.20-20.49.41:915][152]LogWorld: Bringing up level for play took: 0.000541
+[2024.05.20-20.49.41:915][152]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2024.05.20-20.49.41:918][152]PIE: Server logged in
+[2024.05.20-20.49.41:919][152]PIE: Play in editor total start time 0,117 seconds.
+[2024.05.20-20.50.04:500][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.20-20.50.04:500][854]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main_level
+[2024.05.20-20.50.04:501][854]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-20.50.04:501][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-20.50.04:508][854]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.20-20.50.04:528][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-20.50.04:559][854]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.20-20.50.04:560][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-20.50.04:561][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-20.50.04:563][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.20-20.50.04:568][854]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2024.05.20-20.50.04:606][855]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2024.05.20-20.50.17:771][368]BlueprintLog: New page: Compile charcater1
+[2024.05.20-20.50.17:830][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2024.05.20-20.50.18:442][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset" SILENT=true
+[2024.05.20-20.50.18:469][422]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater14DC73F6D4186D5BE8EF29EADD7219FDB.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset'
+[2024.05.20-20.50.18:481][422]AssetCheck: New page: Asset Save: charcater1
+[2024.05.20-20.50.18:481][422]LogContentValidation: Display: Validating Blueprint /Game/charcater1.charcater1
+[2024.05.20-21.38.47:590][235]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.38.47:611][235]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 464C2FFB37330BD0DDF5014E38BEBE47E29E3E78), compiling. 
+[2024.05.20-21.38.47:678][235]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.20-21.38.47:678][235]LogShaderCompilers: Display: Total job queries 1448, among them cache hits 128 (8.84%)
+[2024.05.20-21.38.47:678][235]LogShaderCompilers: Display: Tracking 1320 distinct input hashes that result in 808 distinct outputs (61.21%)
+[2024.05.20-21.38.47:678][235]LogShaderCompilers: Display: RAM used: 4.56 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.56%
+[2024.05.20-21.38.47:678][235]LogShaderCompilers: Display: ================================================
+[2024.05.20-21.38.47:727][235]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 5A56F1B4D282D1174F607FEFD6322D8C5733EA2D), compiling. 
+[2024.05.20-21.38.47:733][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: B791B419584F5906B8141EE10D9BA8F060E75EF1), compiling. 
+[2024.05.20-21.38.47:734][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5C19761D60158EA53D6B8F1DDA2046BEA150DF70), compiling. 
+[2024.05.20-21.38.47:736][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: FF36B6FAACB54B3B6F0E3A0E18F344908F7FD38B), compiling. 
+[2024.05.20-21.38.47:738][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5ED6551A107C1B4B89885A910D9368D0A3C62D90), compiling. 
+[2024.05.20-21.38.47:739][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 2FFA15075C0111EB150AAA7FD080C406E341BEB6), compiling. 
+[2024.05.20-21.38.47:741][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9FE3325985198FA66DFC05965AA85DBCB0261388), compiling. 
+[2024.05.20-21.38.47:742][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 9F9048FEF518751525C2A044349F2324BEED0B54), compiling. 
+[2024.05.20-21.38.47:744][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: BB62A08E826EAFDB45B0A5D730838B715308D201), compiling. 
+[2024.05.20-21.38.47:745][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: A2ABCF9C43B89E19519DE9AF8A5E1E573543B307), compiling. 
+[2024.05.20-21.38.47:747][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 7BE30591C4396FB4DE83F1D6708C8F591047DA45), compiling. 
+[2024.05.20-21.38.47:748][235]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 6A46893F52C87F4FBE49F5BA91CC61E17EF39CE9), compiling. 
+[2024.05.20-21.38.47:763][235]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.38.47:764][235]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.38.47:764][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.38.47:876][236]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.38.49:476][426]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.49:476][426]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2024.05.20-21.38.49:476][426]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2024.05.20-21.38.49:476][426]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.49:785][460]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2024.05.20-21.38.49:785][460]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.49:785][460]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2024.05.20-21.38.49:785][460]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.49:785][460]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.49:799][461]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2024.05.20-21.38.49:799][461]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2024.05.20-21.38.49:799][461]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:209][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:212][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:218][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:222][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:226][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:231][485]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:538][498]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 14
+[2024.05.20-21.38.50:538][498]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:538][498]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2024.05.20-21.38.50:538][498]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:552][499]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2024.05.20-21.38.50:553][499]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:586][501]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2024.05.20-21.38.50:586][501]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2024.05.20-21.38.50:586][501]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.50:607][502]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2024.05.20-21.38.50:607][502]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.51:067][514]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2024.05.20-21.38.51:068][514]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.51:120][516]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2024.05.20-21.38.51:120][516]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.38.51:308][524]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2024.05.20-21.38.51:308][524]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2024.05.20-21.39.24:094][214]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: A46EEC47A27422DFDFE8E62729B3CC7EE15CDFE9), compiling. 
+[2024.05.20-21.39.24:101][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DD117936D337DF16B33DB54EB1884C259ACE9DB9), compiling. 
+[2024.05.20-21.39.24:103][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 35B5B8A21DA30C69D7EF0DE31256CE95D1BDE62B), compiling. 
+[2024.05.20-21.39.24:106][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 2A7CE8AE7013942715D679C421E1E83C373A1243), compiling. 
+[2024.05.20-21.39.24:107][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 21200853EB2E110E11A72E950001C69771D1507B), compiling. 
+[2024.05.20-21.39.24:108][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 1802EC30369C9717486EEBEFA5EC36D33FBF40FF), compiling. 
+[2024.05.20-21.39.24:109][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: D29554AA438BC89421AD2E967BDF4107320A908E), compiling. 
+[2024.05.20-21.39.24:111][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 364625565CD144BC0BAAFC94C29611D983CB31C9), compiling. 
+[2024.05.20-21.39.24:112][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 23A8960C558195B96AF25BCAA05016492F82E721), compiling. 
+[2024.05.20-21.39.24:115][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 5EEC441C3713988D0A5D51E8D99D2C24F90A7A29), compiling. 
+[2024.05.20-21.39.24:116][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 22D881BEB2ADAA8BB9EBACE416B9BE2DD1B8FEF2), compiling. 
+[2024.05.20-21.39.24:117][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5B37B19BF1F51DBD4A71CB71C08CAF2CC7095512), compiling. 
+[2024.05.20-21.39.24:119][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 66E9EC6FB616E118987E96E778EB141F006239B9), compiling. 
+[2024.05.20-21.39.24:120][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 6FB6A7BCB65396FAB11A68CB98DA4395FE4B67E4), compiling. 
+[2024.05.20-21.39.24:122][214]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 2D37488E22AE945E42995554B17F757BE045DF8E), compiling. 
+[2024.05.20-21.39.24:127][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 6B7F09E06705BB8B9AF6F44A36EFEC3681B025A1), compiling. 
+[2024.05.20-21.39.24:128][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 8EF781F424E8AD18545FE986A3CB3A8B795C08FA), compiling. 
+[2024.05.20-21.39.24:129][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 0CE529D7D648AFA43C8A18F375D0AA4C70B2D27C), compiling. 
+[2024.05.20-21.39.24:131][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3C055BF6CDE461FE4F8F08E309E561F6AE4AC2EF), compiling. 
+[2024.05.20-21.39.24:132][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 85AE951A98C77FB021ABB75C3975CDBA98AABA0C), compiling. 
+[2024.05.20-21.39.24:132][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 79D785296A869A94497CC6BF800BDA6712D47BEC), compiling. 
+[2024.05.20-21.39.24:134][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 7DDD653C8B86BBCFC0180E12CC6E7DA31880CE21), compiling. 
+[2024.05.20-21.39.24:136][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: DDAD5871AB31B8830F58203F9BC658E649F90DFD), compiling. 
+[2024.05.20-21.39.24:137][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 066AA32A2A51D1944A7E65E09B26CBCB01F03341), compiling. 
+[2024.05.20-21.39.24:138][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 2EA63BFE38B63426DE8814510366F21EF1893D71), compiling. 
+[2024.05.20-21.39.24:139][214]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 3F29879EC55DCD025BFDAD7F55C407F1B12D9522), compiling. 
+[2024.05.20-21.39.24:141][214]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: F58F78116A8C2541C9476BA29B44E216B859FD34), compiling. 
+[2024.05.20-21.39.24:146][214]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.39.24:153][214]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.39.24:153][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.24:153][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.24:201][216]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.24:201][216]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.24:201][216]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.24:241][218]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.41:697][292]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 1C7C7835B6836AEC759DE7466AD994981D1056E3), compiling. 
+[2024.05.20-21.39.41:702][292]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: BD8B5E11FD355A3E78F1B0C5EA7152C82A65C246), compiling. 
+[2024.05.20-21.39.41:705][292]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.39.41:705][292]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.41:705][292]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.41:753][294]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.41:753][294]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.41:753][294]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.41:791][296]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.43:615][513]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 7308E2BE7551B2DED719B1897C155BD9C353C7B5), compiling. 
+[2024.05.20-21.39.43:622][513]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 4D7AE4CF67EA4B80A78CA5A2A38D2EB0EED33587), compiling. 
+[2024.05.20-21.39.43:625][513]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.39.43:631][513]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.39.43:631][513]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.43:631][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.43:677][515]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.43:677][515]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.43:677][515]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.43:714][517]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.50:463][317]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 8D8BFE8F00AB11EEE72325FC88985C5D2E5FDD8F), compiling. 
+[2024.05.20-21.39.50:467][317]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 665D283A714E6ED681897C2DB132F4AD41CDCC9C), compiling. 
+[2024.05.20-21.39.50:470][317]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.39.50:470][317]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.50:470][317]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.50:516][319]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.50:516][319]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.50:516][319]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.50:557][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.52:275][523]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: C5D321D56E1F55D457855D8F52E36CF2F8603ECB), compiling. 
+[2024.05.20-21.39.52:280][523]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 3800D2412D0FEE73963C42A090E60DED75A4458A), compiling. 
+[2024.05.20-21.39.52:282][523]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.39.52:288][523]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.39.52:288][523]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.52:288][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.52:337][525]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.52:337][525]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.52:337][525]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.39.52:377][527]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.40.20:370][842]LogMaterialEditor: Saving and Compiling material M_Marine
+[2024.05.20-21.40.20:961][842]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 08DFF53BCB5BC6A505C14F0696582F4390DB335E), compiling. 
+[2024.05.20-21.40.21:020][842]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: A44F832AB61FB3AD5108E9C04B482B294C04AADB), compiling. 
+[2024.05.20-21.40.21:111][842]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2024.05.20-21.40.21:327][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.05.20-21.40.21:467][842]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/M_MarineFE2986C04593D67D3F90BAA5D0197AD5.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/Characters/Marine/Materials/M_Marine.uasset'
+[2024.05.20-21.40.21:480][842]AssetCheck: New page: Asset Save: M_Marine
+[2024.05.20-21.40.21:480][842]LogContentValidation: Display: Validating Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.40.21:513][842]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.40.55:352][844]LogEditorTransaction: Undo Modify Component(s)
+[2024.05.20-21.40.55:451][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.20-21.40.55:462][844]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: A029F6F98B3DCDDC8A4422E7EDD233E9E32B5CCA), compiling. 
+[2024.05.20-21.40.55:509][844]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.40.55:509][844]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.40.55:509][844]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.40.55:670][847]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.40.55:670][847]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.40.55:670][847]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.40.55:719][848]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.41.01:560][529]BlueprintLog: New page: Compile charcater1
+[2024.05.20-21.41.01:630][529]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2024.05.20-21.41.31:094][952]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: C8A7EE11A08AF35977D973F62D8C381A4E2456B2), compiling. 
+[2024.05.20-21.41.31:099][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9C61CA2CA0D9B08D8BC45188B093959C4190AA40), compiling. 
+[2024.05.20-21.41.31:102][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 2BD3B4028AA042059573C52C5EE641AEB4DB3F24), compiling. 
+[2024.05.20-21.41.31:103][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6788005DFDFCACD1A9389C89440D621FEBCFEF37), compiling. 
+[2024.05.20-21.41.31:105][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 11974EA648FCA06259B65193BCDBE7540B48E854), compiling. 
+[2024.05.20-21.41.31:107][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7DA51B05B307FB68D694D39BA324C8C565E39639), compiling. 
+[2024.05.20-21.41.31:108][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: CDF7A80EF41323A9841E5ECB4B1C4DB83E9E1EA6), compiling. 
+[2024.05.20-21.41.31:109][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 022A4337A0453E225F92D694265F99945532B134), compiling. 
+[2024.05.20-21.41.31:111][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 782738A79E575E23E5F94702129205C5B83425B7), compiling. 
+[2024.05.20-21.41.31:112][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 79B5E877BCA71785B2ED28BB858A1926D4152163), compiling. 
+[2024.05.20-21.41.31:113][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7DC77FA9ADC7C38C6E3558EC75B293D27C80190C), compiling. 
+[2024.05.20-21.41.31:114][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 710718AE9E42BD401051D048AAF1B9960216093D), compiling. 
+[2024.05.20-21.41.31:116][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 5B35841004B4F86F15C35CC6F447CD577D84021D), compiling. 
+[2024.05.20-21.41.31:119][952]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: B2F183B0E467B4ABB4E70D3AD7F1C9ABCE80288C), compiling. 
+[2024.05.20-21.41.31:123][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 1E007A19974E219FACE858D7E8DBE06F58124161), compiling. 
+[2024.05.20-21.41.31:124][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: E7F79CEE5E7EEEE1A62260DBA8D306555CE6FB50), compiling. 
+[2024.05.20-21.41.31:126][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: ED1489059C8AC96A71DBC7B1C02B63D1DCF0812C), compiling. 
+[2024.05.20-21.41.31:128][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 219DE673E9B459262ED58F77906EC0AEC3F6A4DE), compiling. 
+[2024.05.20-21.41.31:130][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: A8BFE30E060D7B4A79491A8E6A05D29089547B6F), compiling. 
+[2024.05.20-21.41.31:131][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A79936C807A372516393AAACB67C4B794075B66B), compiling. 
+[2024.05.20-21.41.31:133][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: CE79B59A527C101B415E0491B13A882606F190C5), compiling. 
+[2024.05.20-21.41.31:134][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: C333E5387F4C585224C779486594626DF4790E84), compiling. 
+[2024.05.20-21.41.31:135][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 6E6E313C9FB8D8AA4D17EA1C808DB55073BD211E), compiling. 
+[2024.05.20-21.41.31:137][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 1A4D21D6CCB32DDF4EDCA676E0AD993ECB706BE6), compiling. 
+[2024.05.20-21.41.31:138][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: AE08FCE07DA4AFBABB4DAB5C5A14F079BDE94E3F), compiling. 
+[2024.05.20-21.41.31:140][952]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 310035AD0E376E19E59F3BE30007B04E029A2C45), compiling. 
+[2024.05.20-21.41.31:145][952]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.41.31:152][952]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.41.31:152][952]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.41.31:152][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.41.31:200][954]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.41.31:200][954]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.41.31:200][954]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.41.31:244][956]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.41.57:505][ 92]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.20-21.41.57:505][ 92]LogShaderCompilers: Display: Total job queries 2170, among them cache hits 828 (38.16%)
+[2024.05.20-21.41.57:505][ 92]LogShaderCompilers: Display: Tracking 1342 distinct input hashes that result in 811 distinct outputs (60.43%)
+[2024.05.20-21.41.57:505][ 92]LogShaderCompilers: Display: RAM used: 4.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.56%
+[2024.05.20-21.41.57:505][ 92]LogShaderCompilers: Display: ================================================
+[2024.05.20-21.43.10:152][605]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 190857AD5F4C60D27947CAA71AF25BCC48E7A90B), compiling. 
+[2024.05.20-21.43.10:157][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CA72271F5E0141799681419FF65C4697774F67AA), compiling. 
+[2024.05.20-21.43.10:159][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 8D6547D96611CEAB181902FF04B524871A627B28), compiling. 
+[2024.05.20-21.43.10:162][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: E69E107E5654C0DB86BA242851AF51F749845DCB), compiling. 
+[2024.05.20-21.43.10:164][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 517DA7C58241E3F619C35BEC9CFE840872DCFF0B), compiling. 
+[2024.05.20-21.43.10:165][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: 72AAC526A1E47267335CA624DC626E91CD14B9D2), compiling. 
+[2024.05.20-21.43.10:166][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: B6E1F180F1B631E5F4D0306BBE9FBE0F08F06387), compiling. 
+[2024.05.20-21.43.10:167][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: F5F9FD13EB1EF0F7BAC3056EEA0421882F97D7BA), compiling. 
+[2024.05.20-21.43.10:170][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 44921EB55B7E927FA1ABFE40A0CF7898ED86D19F), compiling. 
+[2024.05.20-21.43.10:170][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: C1F2B5943C5312ABDDA42B4B6E190055BDB4FF72), compiling. 
+[2024.05.20-21.43.10:172][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 495E8ABB2A6A408CE70A2A1A2D60B78F0A350CB5), compiling. 
+[2024.05.20-21.43.10:173][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: AE0DC4A942B0BAAAF8D9ED1F8DBBC38776EA438D), compiling. 
+[2024.05.20-21.43.10:174][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: AE871420BF6AADC30DDCFA705F48F0D7C742F1A1), compiling. 
+[2024.05.20-21.43.10:176][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: A3F0F83F33B6DCE91A07672B9E040836EED60940), compiling. 
+[2024.05.20-21.43.10:177][605]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: B47556D2BB8371B58FB791DE1BDDD24B5CC4CAC9), compiling. 
+[2024.05.20-21.43.10:183][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 2BD7F4EB50982D43C49633B9DF7DABE1EF938650), compiling. 
+[2024.05.20-21.43.10:184][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: DACCD9BD7500F01B95389E97D7A9815AD2144BF2), compiling. 
+[2024.05.20-21.43.10:186][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_12 in PCD3D_SM5, Default, SM5 (DDC key hash: B1921E01E0F29F48B4D252E0BC7216B52BBE7CEA), compiling. 
+[2024.05.20-21.43.10:187][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BE44A61B867B936A454656F6F9B3857C27339A12), compiling. 
+[2024.05.20-21.43.10:189][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 4C423CF7D17E2540B9A04F67B7535BDAB3C67C85), compiling. 
+[2024.05.20-21.43.10:190][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5ECE9A8CC441787AA25B05DBB9FDF02FE5A6E812), compiling. 
+[2024.05.20-21.43.10:191][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: BFCC92C13B8D65787F973E4B955F91B37E0E961E), compiling. 
+[2024.05.20-21.43.10:192][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D756BE65168B51BB0F29F00F2E77DC54EE5AD825), compiling. 
+[2024.05.20-21.43.10:193][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BB477A43BC2EA7E3FAFC71A5188DC7A974585087), compiling. 
+[2024.05.20-21.43.10:196][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 917D3AB60006AF5A51E9619D409B8E06AD3B2192), compiling. 
+[2024.05.20-21.43.10:197][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 2EA8DA72E48C1029DC7D14D66BACA80A3F41964C), compiling. 
+[2024.05.20-21.43.10:198][605]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: C3AC6F144C9022E5578FF338C21FA52F1AFAEDD1), compiling. 
+[2024.05.20-21.43.10:202][605]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.43.10:209][605]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.43.10:209][605]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.10:209][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.10:269][607]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.10:269][607]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.10:269][607]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.10:308][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.10:761][656]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2024.05.20-21.43.10:763][656]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/main_level' took 0.041
+[2024.05.20-21.43.17:917][499]LogMaterialEditor: Saving and Compiling material M_Marine
+[2024.05.20-21.43.18:186][499]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 25F813EE680D40D397225744FF80CD0BCF486D66), compiling. 
+[2024.05.20-21.43.18:213][499]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 3DAD2CBEE029C6CE7998272424EEE30AA9269E0F), compiling. 
+[2024.05.20-21.43.18:252][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.05.20-21.43.18:418][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.05.20-21.43.18:520][499]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/M_MarineBD1A750140A3639F5B3529AE288ECB6B.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/Characters/Marine/Materials/M_Marine.uasset'
+[2024.05.20-21.43.18:535][499]AssetCheck: New page: Asset Save: M_Marine
+[2024.05.20-21.43.18:535][499]LogContentValidation: Display: Validating Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.43.18:536][499]MaterialEditorStats: Texture samplers: 10/16
+[2024.05.20-21.43.18:536][499]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.18:536][499]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.18:556][500]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.43.18:556][500]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.18:556][500]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.18:595][502]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:087][562]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: C81215CEB6C50A20A12122F6F1CC564EF71C89A6), compiling. 
+[2024.05.20-21.43.36:093][562]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EC163E2D0BB8F91EE63C8B47AF1CE91A14783CAF), compiling. 
+[2024.05.20-21.43.36:096][562]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.43.36:096][562]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:097][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:142][564]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.36:142][564]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:142][564]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:181][566]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:892][648]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: DF2F26C72D5705136E55902DBE54FF18F7F48B12), compiling. 
+[2024.05.20-21.43.36:898][648]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E775D65FBA8CE0452E1E2F9E2CF247563DF50F77), compiling. 
+[2024.05.20-21.43.36:900][648]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.43.36:906][648]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.43.36:906][648]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:906][648]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:954][650]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.36:954][650]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:954][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.36:994][652]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.40:109][ 11]LogMaterialEditor: Saving and Compiling material M_Marine
+[2024.05.20-21.43.40:375][ 11]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: F1A1ECCECFC6043F7BFFC8FF503BB73F9EBA174F), compiling. 
+[2024.05.20-21.43.40:412][ 11]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: FBDDA9880A7524054CD59DEFF1666F173C69BF29), compiling. 
+[2024.05.20-21.43.40:452][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2024.05.20-21.43.40:620][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.05.20-21.43.40:747][ 11]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/M_MarineCEDE0F744B1E8D856BACB8B1078B7954.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/Characters/Marine/Materials/M_Marine.uasset'
+[2024.05.20-21.43.40:763][ 11]AssetCheck: New page: Asset Save: M_Marine
+[2024.05.20-21.43.40:763][ 11]LogContentValidation: Display: Validating Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.43.40:764][ 11]MaterialEditorStats: Texture samplers: 10/16
+[2024.05.20-21.43.40:764][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.40:764][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.40:783][ 12]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.43.40:783][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.40:783][ 12]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.43.40:822][ 14]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.43.40:822][ 14]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.43.40:822][ 14]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.43.40:822][ 14]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.43.40:823][ 14]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.43.40:823][ 14]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.43.40:823][ 14]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.09:729][446]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: F7D6FC21958BB4429D1E14C633734E33C550F99A), compiling. 
+[2024.05.20-21.44.09:735][446]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: E9ECE7EE352E248EBDE0ABF54AE8B0115D552207), compiling. 
+[2024.05.20-21.44.09:738][446]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.09:738][446]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.09:738][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.09:785][448]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.09:785][448]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.09:785][448]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.09:822][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.13:943][942]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 37F378D27DF2E7DCF0A6A6F017A880C0CEBC69C0), compiling. 
+[2024.05.20-21.44.13:948][942]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: B347BF987C80D132EC08C8CFC68242D70070E395), compiling. 
+[2024.05.20-21.44.13:951][942]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.13:951][942]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.13:951][942]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.13:999][944]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.13:999][944]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.13:999][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.14:039][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.18:966][536]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: B6FF47151EB2BB8934C59A1D38C4C18FA49A1762), compiling. 
+[2024.05.20-21.44.18:972][536]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 8A69B835200F68ACD5871F9583B8783C026CC621), compiling. 
+[2024.05.20-21.44.18:979][536]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.18:979][536]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.18:979][536]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.19:048][538]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.19:048][538]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.19:048][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.19:119][541]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.21:259][796]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 904C7FEFE3EE3C3A6C683309AE0A6DD213D15BDC), compiling. 
+[2024.05.20-21.44.21:265][796]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 4701D87B44E2326D9FB58259DC84F677245B654E), compiling. 
+[2024.05.20-21.44.21:268][796]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.21:268][796]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.21:268][796]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.21:313][798]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.21:313][798]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.21:313][798]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.21:354][800]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.24:631][193]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 5AC7EDD08F08F4E12D1A2122A072AF97BB092D3B), compiling. 
+[2024.05.20-21.44.24:636][193]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 30EE238F8128C4C39514808A26107930846732E0), compiling. 
+[2024.05.20-21.44.24:640][193]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.24:640][193]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.24:640][193]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.24:686][195]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.24:686][195]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.24:686][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.24:726][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.37:567][733]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: DA18A48BF9AD30A2E066CD59258A12BAA22E284F), compiling. 
+[2024.05.20-21.44.37:572][733]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 920984CBBA887B509D2372E7E275625DE67CB85F), compiling. 
+[2024.05.20-21.44.37:574][733]LogSlate: Window 'Color Picker' being destroyed
+[2024.05.20-21.44.37:580][733]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.44.37:580][733]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.37:580][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.37:627][735]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.37:627][735]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.37:627][735]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.37:667][737]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.55:423][852]LogMaterialEditor: Saving and Compiling material M_Marine
+[2024.05.20-21.44.55:689][852]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: FDC2C16D8C1185ABDC3ABCD67E8A2D57B6200454), compiling. 
+[2024.05.20-21.44.55:726][852]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 3D2D2F8A9412038E373E14FF6380328BABB4F219), compiling. 
+[2024.05.20-21.44.55:767][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2024.05.20-21.44.55:933][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.05.20-21.44.56:052][852]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/M_Marine1CFDAA4945498E567052CDA4B8A72FC8.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/Characters/Marine/Materials/M_Marine.uasset'
+[2024.05.20-21.44.56:067][852]AssetCheck: New page: Asset Save: M_Marine
+[2024.05.20-21.44.56:067][852]LogContentValidation: Display: Validating Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.44.56:067][852]MaterialEditorStats: Texture samplers: 10/16
+[2024.05.20-21.44.56:067][852]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.56:067][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.56:089][853]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.44.56:089][853]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.56:089][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.44.56:130][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.16:086][227]LogEditorTransaction: Undo Modify Component(s)
+[2024.05.20-21.45.16:181][227]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.05.20-21.45.16:191][227]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 6A0C01E88B17A3B12DD994D5AD1BA5D3A85D0F4D), compiling. 
+[2024.05.20-21.45.16:242][227]MaterialEditorStats: Texture samplers: 0/16
+[2024.05.20-21.45.16:242][227]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.16:242][227]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.16:376][229]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.20-21.45.16:376][229]LogShaderCompilers: Display: Total job queries 3310, among them cache hits 1968 (59.46%)
+[2024.05.20-21.45.16:376][229]LogShaderCompilers: Display: Tracking 1342 distinct input hashes that result in 811 distinct outputs (60.43%)
+[2024.05.20-21.45.16:376][229]LogShaderCompilers: Display: RAM used: 4.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.56%
+[2024.05.20-21.45.16:376][229]LogShaderCompilers: Display: ================================================
+[2024.05.20-21.45.16:413][230]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.45.16:413][230]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.16:413][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.16:463][231]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.45.16:463][231]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.45.16:464][231]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.45.16:464][231]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.45.16:464][231]MaterialEditorStats: Texture samplers: 12/16
+[2024.05.20-21.45.16:464][231]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.16:464][231]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.18:086][408]BlueprintLog: New page: Compile charcater1
+[2024.05.20-21.45.18:147][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2024.05.20-21.45.18:649][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset" SILENT=true
+[2024.05.20-21.45.18:665][456]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater1A39FFF7E4737C6C5D2F6EB928537A5AA.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset'
+[2024.05.20-21.45.18:678][456]AssetCheck: New page: Asset Save: charcater1
+[2024.05.20-21.45.18:678][456]LogContentValidation: Display: Validating Blueprint /Game/charcater1.charcater1
+[2024.05.20-21.45.21:482][774]LogMaterialEditor: Saving and Compiling material M_Marine
+[2024.05.20-21.45.21:749][774]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 7A03E85A324110290DF9ECA41027D11F60D953DB), compiling. 
+[2024.05.20-21.45.21:776][774]LogMaterial: Display: Missing cached shadermap for M_Marine in PCD3D_SM5, Default, SM5 (DDC key hash: 54DB4A4C1A6C1D7ADA0AD0E2522BE68A52C029FE), compiling. 
+[2024.05.20-21.45.21:862][774]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2024.05.20-21.45.22:027][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.05.20-21.45.22:135][774]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/M_Marine2CF8E2DE4AF0B68A94E69082002D8A95.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/Characters/Marine/Materials/M_Marine.uasset'
+[2024.05.20-21.45.22:150][774]AssetCheck: New page: Asset Save: M_Marine
+[2024.05.20-21.45.22:150][774]LogContentValidation: Display: Validating Material /Game/Characters/Marine/Materials/M_Marine.M_Marine
+[2024.05.20-21.45.22:151][774]MaterialEditorStats: Texture samplers: 10/16
+[2024.05.20-21.45.22:151][774]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.22:151][774]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.22:170][775]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.45.22:170][775]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.22:171][775]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Base pass shader: 266 instructions
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 340 instructions
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Texture samplers: 13/16
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2024.05.20-21.45.22:209][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.05.20-21.45.25:547][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.05.20-21.45.57:517][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.05.20-21.45.57:602][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.05.20-21.45.57:602][891]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.45.57:602][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-21.45.57:919][891]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.45.57:919][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-21.45.58:013][891]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.45.58:013][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-21.45.58:056][891]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.45.58:056][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-21.45.58:070][891]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.45.58:070][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.20-21.45.58:283][891]LogSlate: Window 'HK_shooter - Unreal Editor' being destroyed
+[2024.05.20-21.45.58:654][892]Cmd: QUIT_EDITOR
+[2024.05.20-21.45.58:654][892]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.05.20-21.45.58:660][892]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.05.20-21.45.59:272][892]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.05.20-21.45.59:272][892]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.05.20-21.45.59:272][892]LogAudio: Display: Audio Device unregistered from world 'main_level'.
+[2024.05.20-21.45.59:272][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-21.45.59:274][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.05.20-21.45.59:319][892]LogAudio: Display: Audio Device Manager Shutdown
+[2024.05.20-21.45.59:319][892]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.05.20-21.45.59:328][892]LogExit: Preparing to exit.
+[2024.05.20-21.46.00:597][892]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2024.05.20-21.46.00:838][892]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:841][892]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:843][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:846][892]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:848][892]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:850][892]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:852][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:854][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:856][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:858][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.None) Not registered. Aborting.
+[2024.05.20-21.46.00:860][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:862][892]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.00:980][892]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.20-21.46.01:000][892]LogExit: Editor shut down
+[2024.05.20-21.46.01:002][892]LogExit: Transaction tracking system shut down
+[2024.05.20-21.46.01:016][892]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2024.05.20-21.46.02:610][892]LogExit: Object subsystem successfully closed.
+[2024.05.20-21.46.02:629][892]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.20-21.46.02:630][892]LogShaderCompilers: Display: Total job queries 3453, among them cache hits 2111 (61.14%)
+[2024.05.20-21.46.02:630][892]LogShaderCompilers: Display: Tracking 1342 distinct input hashes that result in 811 distinct outputs (60.43%)
+[2024.05.20-21.46.02:630][892]LogShaderCompilers: Display: RAM used: 4.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.56%
+[2024.05.20-21.46.02:630][892]LogShaderCompilers: Display: ================================================
+[2024.05.20-21.46.02:744][892]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.05.20-21.46.02:875][892]LogModuleManager: Shutting down and abandoning module SequencerWidgets (894)
+[2024.05.20-21.46.02:875][892]LogModuleManager: Shutting down and abandoning module AnimationEditor (892)
+[2024.05.20-21.46.02:875][892]LogModuleManager: Shutting down and abandoning module PinnedCommandList (890)
+[2024.05.20-21.46.02:875][892]LogModuleManager: Shutting down and abandoning module SkeletonEditor (888)
+[2024.05.20-21.46.02:875][892]LogModuleManager: Shutting down and abandoning module BlueprintCompilerCppBackend (886)
+[2024.05.20-21.46.02:877][892]LogModuleManager: Shutting down and abandoning module LauncherServices (882)
+[2024.05.20-21.46.02:877][892]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (880)
+[2024.05.20-21.46.02:881][892]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (878)
+[2024.05.20-21.46.02:881][892]LogModuleManager: Shutting down and abandoning module Voice (876)
+[2024.05.20-21.46.02:881][892]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (874)
+[2024.05.20-21.46.02:882][892]LogModuleManager: Shutting down and abandoning module BlueprintGraph (872)
+[2024.05.20-21.46.02:882][892]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (870)
+[2024.05.20-21.46.02:882][892]LogModuleManager: Shutting down and abandoning module SceneOutliner (868)
+[2024.05.20-21.46.02:882][892]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2024.05.20-21.46.02:887][892]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2024.05.20-21.46.02:887][892]LogModuleManager: Shutting down and abandoning module EditorWidgets (862)
+[2024.05.20-21.46.02:887][892]LogModuleManager: Shutting down and abandoning module StatsViewer (860)
+[2024.05.20-21.46.02:889][892]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2024.05.20-21.46.02:895][892]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2024.05.20-21.46.02:895][892]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2024.05.20-21.46.02:895][892]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2024.05.20-21.46.02:896][892]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2024.05.20-21.46.02:896][892]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (848)
+[2024.05.20-21.46.02:907][892]LogModuleManager: Shutting down and abandoning module TakeRecorder (847)
+[2024.05.20-21.46.02:907][892]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (844)
+[2024.05.20-21.46.02:907][892]LogModuleManager: Shutting down and abandoning module TakesCore (842)
+[2024.05.20-21.46.02:907][892]LogModuleManager: Shutting down and abandoning module OpenXRInput (840)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module PlanarCut (834)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (832)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (830)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module WebMMedia (828)
+[2024.05.20-21.46.02:908][892]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (826)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (824)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (822)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (820)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module SequenceRecorder (819)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (816)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (814)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (812)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (810)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (808)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (806)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (804)
+[2024.05.20-21.46.02:909][892]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (802)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (800)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (798)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (796)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module CharacterAI (794)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (792)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (790)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (788)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module TextureAlignMode (786)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module BspMode (784)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module GeometryMode (782)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (780)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2024.05.20-21.46.02:915][892]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2024.05.20-21.46.02:917][892]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2024.05.20-21.46.02:918][892]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2024.05.20-21.46.02:918][892]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2024.05.20-21.46.02:918][892]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2024.05.20-21.46.02:925][892]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2024.05.20-21.46.02:926][892]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2024.05.20-21.46.02:926][892]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2024.05.20-21.46.02:926][892]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2024.05.20-21.46.02:926][892]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2024.05.20-21.46.03:103][892]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2024.05.20-21.46.03:103][892]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2024.05.20-21.46.03:103][892]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2024.05.20-21.46.03:103][892]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2024.05.20-21.46.03:103][892]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2024.05.20-21.46.03:103][892]MemoryProfiler: Shutdown
+[2024.05.20-21.46.03:103][892]NetworkingProfiler: Shutdown
+[2024.05.20-21.46.03:103][892]LoadingProfiler: Shutdown
+[2024.05.20-21.46.03:103][892]TimingProfiler: Shutdown
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2024.05.20-21.46.03:104][892]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2024.05.20-21.46.03:105][892]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2024.05.20-21.46.03:117][892]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2024.05.20-21.46.03:150][892]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2024.05.20-21.46.03:301][892]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2024.05.20-21.46.03:301][892]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2024.05.20-21.46.03:302][892]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2024.05.20-21.46.03:302][892]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2024.05.20-21.46.03:306][892]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2024.05.20-21.46.03:306][892]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2024.05.20-21.46.03:306][892]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2024.05.20-21.46.03:346][892]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2024.05.20-21.46.03:346][892]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2024.05.20-21.46.03:351][892]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2024.05.20-21.46.03:351][892]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2024.05.20-21.46.03:352][892]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2024.05.20-21.46.03:352][892]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2024.05.20-21.46.03:356][892]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2024.05.20-21.46.03:356][892]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2024.05.20-21.46.03:357][892]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2024.05.20-21.46.03:358][892]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2024.05.20-21.46.03:358][892]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2024.05.20-21.46.03:358][892]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2024.05.20-21.46.03:362][892]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2024.05.20-21.46.03:475][892]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2024.05.20-21.46.03:475][892]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2024.05.20-21.46.03:475][892]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2024.05.20-21.46.03:479][892]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2024.05.20-21.46.03:479][892]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (598)
+[2024.05.20-21.46.03:479][892]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (596)
+[2024.05.20-21.46.03:479][892]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2024.05.20-21.46.03:479][892]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (590)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (588)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module UObjectPlugin (586)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (584)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (582)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module PluginUtils (580)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (578)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (576)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module GitSourceControl (574)
+[2024.05.20-21.46.03:480][892]LogModuleManager: Shutting down and abandoning module SourceControl (573)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (570)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (568)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module SynthesisEditor (566)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module Synthesis (564)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (562)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (560)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module TakeSequencer (558)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module TakeMovieScene (556)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module OpenXREditor (554)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (552)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ScreenshotTools (550)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GooglePAD (548)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module EditableMesh (546)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (544)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module CableComponent (542)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AudioCapture (540)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (539)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (536)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AssetTags (534)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (532)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AppleImageUtils (530)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module AndroidPermission (528)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (526)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (524)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (522)
+[2024.05.20-21.46.03:482][892]LogOpenImageDenoise: OIDN shutting down
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (520)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module MotoSynth (518)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module MediaCompositing (516)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module ImgMedia (514)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module MeshConversion (512)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module DynamicMesh (510)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (508)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometricObjects (506)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module TemplateSequence (504)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (502)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (501)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (498)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (496)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (494)
+[2024.05.20-21.46.03:482][892]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (492)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (490)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module ChaosNiagara (488)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module FractureEditor (486)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (485)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (482)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (480)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module AutomationUtils (478)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module AlembicImporter (476)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module AlembicLibrary (475)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module GeometryCache (474)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (473)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module BackChannel (468)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (466)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (464)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (462)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (460)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (458)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (456)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (454)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (452)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module PluginBrowser (450)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (448)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (446)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (444)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (442)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module CryptoKeys (440)
+[2024.05.20-21.46.03:483][892]LogModuleManager: Shutting down and abandoning module CurveEditorTools (438)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (436)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (434)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (432)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (430)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module Paper2DEditor (428)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (426)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (424)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (422)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (420)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (418)
+[2024.05.20-21.46.03:485][892]LogModuleManager: Shutting down and abandoning module LiveLink (416)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (410)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module AnimationSharing (408)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module SoundFields (406)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module SignificanceManager (404)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (402)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (400)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (398)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (394)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (392)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (390)
+[2024.05.20-21.46.03:673][892]LogModuleManager: Shutting down and abandoning module TcpMessaging (388)
+[2024.05.20-21.46.03:774][892]LogModuleManager: Shutting down and abandoning module UdpMessaging (386)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (384)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (382)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module ActorSequence (380)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (378)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (376)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (374)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (372)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (370)
+[2024.05.20-21.46.03:874][892]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (368)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (366)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (364)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (362)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapController (360)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (358)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module MagicLeapAR (356)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (354)
+[2024.05.20-21.46.03:874][892]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2024.05.20-21.46.03:876][892]LogModuleManager: Shutting down and abandoning module SignalProcessing (351)
+[2024.05.20-21.46.03:876][892]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module NiagaraCore (346)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (344)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module FacialAnimation (342)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (340)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module DataValidation (338)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (336)
+[2024.05.20-21.46.03:877][892]LogModuleManager: Shutting down and abandoning module LevelEditor (335)
+[2024.05.20-21.46.03:883][892]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (334)
+[2024.05.20-21.46.03:883][892]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (332)
+[2024.05.20-21.46.03:883][892]LogModuleManager: Shutting down and abandoning module MainFrame (330)
+[2024.05.20-21.46.03:883][892]LogModuleManager: Shutting down and abandoning module HotReload (329)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module ToolMenus (325)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module ContentBrowser (323)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module ContentBrowserData (322)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module TreeMap (319)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module GameplayCameras (316)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (314)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (312)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2024.05.20-21.46.03:884][892]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2024.05.20-21.46.03:897][892]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2024.05.20-21.46.03:897][892]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2024.05.20-21.46.03:897][892]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2024.05.20-21.46.03:897][892]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2024.05.20-21.46.03:897][892]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2024.05.20-21.46.03:898][892]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2024.05.20-21.46.03:898][892]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2024.05.20-21.46.03:898][892]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2024.05.20-21.46.03:898][892]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2024.05.20-21.46.03:899][892]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2024.05.20-21.46.03:899][892]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2024.05.20-21.46.03:899][892]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2024.05.20-21.46.03:899][892]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2024.05.20-21.46.03:899][892]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2024.05.20-21.46.03:900][892]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2024.05.20-21.46.03:900][892]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.05.20-21.46.03:901][892]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.05.20-21.46.03:904][892]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2024.05.20-21.46.03:904][892]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.05.20-21.46.03:912][892]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.05.20-21.46.03:912][892]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module Core (248)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2024.05.20-21.46.03:913][892]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2024.05.20-21.46.03:916][892]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2024.05.20-21.46.03:919][892]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2024.05.20-21.46.03:923][892]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2024.05.20-21.46.03:927][892]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2024.05.20-21.46.03:929][892]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2024.05.20-21.46.03:929][892]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2024.05.20-21.46.03:929][892]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2024.05.20-21.46.03:929][892]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2024.05.20-21.46.03:930][892]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2024.05.20-21.46.03:931][892]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2024.05.20-21.46.03:932][892]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2024.05.20-21.46.03:932][892]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2024.05.20-21.46.03:932][892]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2024.05.20-21.46.03:932][892]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2024.05.20-21.46.03:937][892]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2024.05.20-21.46.03:937][892]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2024.05.20-21.46.03:937][892]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2024.05.20-21.46.03:937][892]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2024.05.20-21.46.03:937][892]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2024.05.20-21.46.03:945][892]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2024.05.20-21.46.03:949][892]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2024.05.20-21.46.03:964][892]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2024.05.20-21.46.03:964][892]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2024.05.20-21.46.03:964][892]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2024.05.20-21.46.03:964][892]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2024.05.20-21.46.03:964][892]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2024.05.20-21.46.03:965][892]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2024.05.20-21.46.03:965][892]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2024.05.20-21.46.03:966][892]LogHMD: Freeing OpenVRDLLHandle.
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module PixWinPlugin (108)
+[2024.05.20-21.46.03:966][892]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (106)
+[2024.05.20-21.46.03:967][892]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.05.20-21.46.03:967][892]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (104)
+[2024.05.20-21.46.03:967][892]LogModuleManager: Shutting down and abandoning module OpenXRAR (102)
+[2024.05.20-21.46.03:967][892]LogModuleManager: Shutting down and abandoning module AugmentedReality (101)
+[2024.05.20-21.46.03:967][892]LogModuleManager: Shutting down and abandoning module OpenXRHMD (98)
+[2024.05.20-21.46.03:968][892]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2024.05.20-21.46.03:968][892]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2024.05.20-21.46.03:968][892]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2024.05.20-21.46.03:968][892]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2024.05.20-21.46.03:971][892]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2024.05.20-21.46.03:973][892]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2024.05.20-21.46.04:657][892]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2024.05.20-21.46.04:657][892]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.05.20-21.46.04:660][892]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B698723C1-464F-8825-B9CD-0CBC6C7D59B4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=ca35958445bb1234eb22dba36ec3f7bb%7Cc3477a71d56d4a3d8931c48c23efd0e3%7Cfc9e3f9a-e6d8-4adf-873b-26b5f891b0e9&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.05.20-21.46.04:660][892]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2024.05.20-21.46.04:693][892]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2024.05.20-21.46.04:695][892]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2024.05.20-21.46.04:695][892]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2024.05.20-21.46.04:696][892]LogModuleManager: Shutting down and abandoning module Media (71)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module ChaosCloth (64)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2024.05.20-21.46.04:697][892]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2024.05.20-21.46.04:698][892]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2024.05.20-21.46.04:699][892]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2024.05.20-21.46.04:700][892]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2024.05.20-21.46.04:700][892]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2024.05.20-21.46.04:700][892]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2024.05.20-21.46.04:700][892]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2024.05.20-21.46.04:700][892]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2024.05.20-21.46.04:717][892]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2024.05.20-21.46.04:717][892]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2024.05.20-21.46.04:718][892]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2024.05.20-21.46.04:721][892]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2024.05.20-21.46.04:784][892]LogD3D11RHI: Shutdown
+[2024.05.20-21.46.04:784][892]LogD3D11RHI: CleanupD3DDevice
+[2024.05.20-21.46.04:805][892]LogExit: Exiting.
+[2024.05.20-21.46.04:824][892]Log file closed, 05/20/24 23:46:04
