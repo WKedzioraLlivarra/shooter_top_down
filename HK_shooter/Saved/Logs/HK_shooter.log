@@ -3623,3 +3623,90 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.06.02-12.24.51:105][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.06.02-12.24.51:655][717]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
 [2024.06.02-12.24.51:655][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.02-12.47.55:023][457]BlueprintLog: New page: Compile charcater1
+[2024.06.02-12.47.55:082][457]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2024.06.02-12.47.55:570][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset" SILENT=true
+[2024.06.02-12.47.55:596][505]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater16CE85B39474CB9DF7DA2B0B12F0620F8.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset'
+[2024.06.02-12.47.55:608][505]AssetCheck: New page: Asset Save: charcater1
+[2024.06.02-12.47.55:608][505]LogContentValidation: Display: Validating Blueprint /Game/charcater1.charcater1
+[2024.06.02-12.48.33:530][777]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.06.02-12.51.02:150][456]LogTemp: Repeating last play command: Selected Viewport
+[2024.06.02-12.51.02:156][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.02-12.51.02:156][456]PIE: New page: PIE session: main_level (2 cze 2024, 16:51:02)
+[2024.06.02-12.51.02:156][456]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_main_level
+[2024.06.02-12.51.02:160][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004184s)
+[2024.06.02-12.51.02:161][456]LogAIModule: Creating AISystem for world main_level
+[2024.06.02-12.51.02:161][456]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2024.06.02-12.51.02:161][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/main_level.main_level to /Game/UEDPIE_0_main_level.main_level (0.005229s)
+[2024.06.02-12.51.02:190][456]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2024.06.02-12.51.02:196][456]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.02-12.51.02:196][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.02-12.51.02:196][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.02-12.51.02:197][456]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.02-12.51.02:197][456]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.02-12.51.02:197][456]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.02-12.51.02:197][456]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.02-12.51.02:202][456]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.02-12.51.02:202][456]LogAudioMixer: Display: 1: FrontRight
+[2024.06.02-12.51.02:217][456]LogAudioMixer: Display: Using Audio Device Głośniki (Realtek(R) Audio)
+[2024.06.02-12.51.02:217][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.02-12.51.02:218][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.02-12.51.02:218][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.02-12.51.02:218][456]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.02-12.51.02:218][456]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.02-12.51.02:218][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.02-12.51.02:219][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.02-12.51.02:219][456]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.02-12.51.02:219][456]LogInit: FAudioDevice initialized.
+[2024.06.02-12.51.02:220][456]LogAudio: Display: Audio Device (ID: 38) registered with world 'main_level'.
+[2024.06.02-12.51.02:229][456]LogLoad: Game class is 'mine_C'
+[2024.06.02-12.51.02:230][456]LogWorld: Bringing World /Game/UEDPIE_0_main_level.main_level up for play (max tick rate 0) at 2024.06.02-14.51.02
+[2024.06.02-12.51.02:231][456]LogWorld: Bringing up level for play took: 0.000640
+[2024.06.02-12.51.02:231][456]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2024.06.02-12.51.02:233][456]PIE: Server logged in
+[2024.06.02-12.51.02:234][456]PIE: Play in editor total start time 0,079 seconds.
+[2024.06.02-12.52.04:425][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.02-12.52.04:425][908]LogWorld: BeginTearingDown for /Game/UEDPIE_0_main_level
+[2024.06.02-12.52.04:425][908]LogWorld: UWorld::CleanupWorld for main_level, bSessionEnded=true, bCleanupResources=true
+[2024.06.02-12.52.04:426][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.02-12.52.04:434][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.02-12.52.04:453][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.02-12.52.04:474][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.02-12.52.04:475][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.02-12.52.04:476][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.02-12.52.04:483][908]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.06.02-12.52.04:500][909]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.06.02-12.56.19:990][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2024.06.02-12.56.19:999][467]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/main_level' took 0.036
+[2024.06.02-12.56.20:000][467]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/charcater1] ([4] browsable assets)...
+[2024.06.02-12.56.20:000][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/charcater1]
+[2024.06.02-12.56.20:000][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/Autosaves/Game/charcater1_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2024.06.02-12.56.20:021][467]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater1_Auto8FB5AABE7440E978F68B45C90F9D72F56.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/Autosaves/Game/charcater1_Auto8.uasset'
+[2024.06.02-12.56.20:023][467]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.06.02-12.59.25:498][944]BlueprintLog: New page: Compile charcater1
+[2024.06.02-12.59.25:552][944]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2024.06.02-13.01.42:460][770]LogEditorTransaction: Undo Function Dropped on Graph
+[2024.06.02-13.01.44:474][966]BlueprintLog: New page: Compile charcater1
+[2024.06.02-13.01.44:528][966]LogUObjectHash: Compacting FUObjectHashTables data took   5.35ms
+[2024.06.02-13.01.45:346][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset" SILENT=true
+[2024.06.02-13.01.45:373][ 57]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater1FD65FF174F0927F333813C9F5F897713.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Content/charcater1.uasset'
+[2024.06.02-13.01.45:386][ 57]AssetCheck: New page: Asset Save: charcater1
+[2024.06.02-13.01.45:386][ 57]LogContentValidation: Display: Validating Blueprint /Game/charcater1.charcater1
+[2024.06.02-13.02.15:150][511]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.02-13.02.28:485][ 90]BlueprintLog: New page: Compile charcater1
+[2024.06.02-13.02.28:539][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2024.06.02-13.06.20:645][244]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2024.06.02-13.06.20:647][244]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/main_level' took 0.031
+[2024.06.02-13.06.20:648][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/charcater1] ([4] browsable assets)...
+[2024.06.02-13.06.20:659][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/charcater1.charcater1]
+[2024.06.02-13.06.20:669][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/charcater1.charcater1]
+[2024.06.02-13.06.20:669][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/charcater1]
+[2024.06.02-13.06.20:669][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/charcater1" FILE="../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/Autosaves/Game/charcater1_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2024.06.02-13.06.20:696][244]LogSavePackage: Moving '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/charcater1_Auto9D658232D4DCD41CA2D426591C49EBA6C.tmp' to '../../../../../../Users/1/Documents/GitHub/shooter_top_down/HK_shooter/Saved/Autosaves/Game/charcater1_Auto9.uasset'
+[2024.06.02-13.06.20:697][244]LogFileHelpers: Auto-saving content packages took 0.049
